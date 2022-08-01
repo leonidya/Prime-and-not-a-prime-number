@@ -1,12 +1,11 @@
 #First *fork* your copy. Then copy-paste your code below this line 👇
 #Finally click "Run" to execute the tests
 def prime_checker(number):
-    true_of_false = True
+    true_or_false = True
     for i in range(2,number):
         if number%i==0:
-            true_of_false = False
-            break
-    if true_of_false == True:     
+            true_or_false = False
+    if true_or_false == True:     
         print("It's a prime number.")
     else:
         print("It's not a prime number.")
